@@ -7,5 +7,15 @@
 </head>
 <body>
     <h1>Hello World!</h1>
+    <button id="btn">alert</button>
+    <label id="demo"></label>
+    <script>
+        var a = document.getElementById("btn");
+        var lbl = document.getElementById("demo");
+        a.addEventListener("click",function(){
+            lbl.innerHTML = "Hi there!";
+            console.log("hi there.");
+        })
+    </script>
 </body>
 </html>
